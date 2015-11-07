@@ -7,12 +7,12 @@ using SharpDX;
 using Collision = LeagueSharp.Common.Collision;
 using Color = System.Drawing.Color;
 
-namespace EliseGod
+namespace PerfectElise
 {
     internal class Program
     {
         public static Spell Q, W, E, R, Q1, W1, E1;
-        private static readonly Menu Config = new Menu("Perfect Elise", "Elise.God.", true);
+        private static readonly Menu Config = new Menu("Perfect Elise", "PerfectElise", true);
         private static readonly Obj_AI_Hero Player = ObjectManager.Player;
         private static Orbwalking.Orbwalker _orbwalker;
         private static readonly float[] HumanQcd = { 6, 6, 6, 6, 6 };
